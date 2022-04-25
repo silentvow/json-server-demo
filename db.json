@@ -1,4 +1,24 @@
 {
+  "products": [
+    {
+      "id": 1,
+      "name": "Product 1",
+      "flows": [
+        { "id": 1, "name": "Flow 1" },
+        { "id": 2, "name": "Flow 2" },
+        { "id": 3, "name": "Flow 3" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "flows": [
+        { "id": 4, "name": "Flow 4" },
+        { "id": 5, "name": "Flow 5" },
+        { "id": 6, "name": "Flow 6" }
+      ]
+    }
+  ],
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
@@ -9,6 +29,6 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "silentvow"
   }
 }
